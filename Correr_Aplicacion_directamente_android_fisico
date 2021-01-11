@@ -1,0 +1,12 @@
+//Para correr la aplicacion directamente en el telefono y no en un emulador
+Ir a configuracion del telefono
+Acerca del telefono - informacion del software
+Presionar en numero de compilacion varias veces hasta que salga mensaje que estamos en modo desarrollador
+Ahora irse otravez a las opciones y ahora debe aparecer la opcion "opciones de desarrollador"
+Entrar alli y bajar  hasta la opcion "DEPURACION POR USB" Activar esta opcion.
+Conectar por usb el celular al computador y dar click en permitir
+Abrir en Visual Studio Code algun proyecto flutter
+abrir la paleta de comandos Ctrl+shift+p
+escribir flutter select device
+Escoger el celular que acabamos de conectar
+correr aplicacion con f5.
