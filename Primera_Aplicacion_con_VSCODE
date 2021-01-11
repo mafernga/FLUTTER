@@ -1,0 +1,11 @@
+// Tener en cuenta que para que funcione con flutter hay que tener las extensiones de flutter, dart,  awesome flutter snippets en Visual Studio Code  (files - preferences - extensiones)
+
+Aprenderse este shortcut ctrl + shift + p  para lanzar la paleta de comandos -  view - command palette
+
+Para crear un proyecto entramos a la paleta de comandos con el shortcut y escribimos flutter, escogemos nuevo proyecto, escogemos la carpeta en donde se va a guardar 
+y le ponemos un nombre al proyecto.
+
+Ahora abrimos el emulador, entramos a la paleta de comandos ctrl+shift+p  y escribimos "Flutter Launch Emulator" escogemos el emulador que 
+habiamos creado anteriormente en la configuracion de Android Studio
+Presionamos F5 run debuge para iniciar la aplicacion por defecto, para guardar cambios CTRL+S
+
