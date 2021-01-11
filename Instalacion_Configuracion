@@ -1,0 +1,52 @@
+Entrar a la direccion www.flutter.dev/
+Click en Get Started
+En la seccion de requerimentos del sistema clic en instalar "Git for Windows 2.x, with the Use Git from the Windows Command Prompt option."
+Luego de instalar GIT, procedemos a instalar FLUTTER  "Get the Flutter SDK"
+Se descarga un Zip, este se debe descomprimir y guardar la carpeta flutter en la siguiente ruta C:\src\flutter
+
+Luego se debe actualizar el path para que funcione con Git
+En el buscador de inicio de windows  buscar "Editar las variables del entorno de esta cuenta"
+En la ventana que se abre hacer click en Path, luego en Editar, luego en nuevo y se agrega esta ruta C:\src\flutter\bin
+Luego aceptar y aceptar
+Ahora en la carpeta C:\src\flutter hacer clic derecho en un espacio en blanco y escoger la opcion "GIT BASH HERE" para abrir la ventana de comandos de git bash
+Escribimos flutter --version
+Este codigo instala lo que haga falta y nos muestra la version de flutter
+Luego escribimos flutter doctor
+Con este codigo instalamos otras cosas que hacen falta y adicionalmente nos muestra que programs nos hacen falta para poder empezar a usar flutter correctamente
+
+Ahora instalamos Android Studio  https://developer.android.com/studio
+Luego de instalado,(se instala dando puro Next next next) procedemos a configurarlo para qeu funcione con flutter
+En la pantalla de inicio de Android Studio, hacemos click en configurar
+Instalamos el plugin de flutter, clic en configurar, plugins, y en marketplace buscamos flutter y procedemos a instalarlo y luego reiniciamos android studio para que se efectuen lso cambios
+
+// Aceptar licencias de android para no tener problemas para corre nuestras aplicaciones de flutter en android studio o visual studio code
+Abrir ventana de comandos Git Bash (Click Derecho cualquier espacio carpeta y escoger"GIT BASH HERE"
+escribir  flutter doctor --android-licenses
+aceptar con Y todas als licencias
+
+//Creacion de Android virtual
+Abrir Android Studio
+Crear nuevo proyecto flutter
+New Flutter aplication, next
+En la pantalla siguiente en la opcion de Flutter SDK Path debes poner en caso de que no salga la ruta de flutter en este caso seria C:\src\flutter
+luego escoger la locacion del proyecto
+Next, Finish
+File - project structure - en project SDK escoger al version de Android estable y ok
+
+//CONFIGURAR PATH SDK
+En el buscador de inicio de windows  buscar "Editar las variables del entorno de esta cuenta"
+En la ventana que se abre hacer click en NUEVO, luego en nombre de la: ANDROID_HOME
+En "Valor de la"  se debe poner la ruta de SDK (La ruta se encuentra en File - Settings es la ruta que sale en  ANDROID SDK LOCATION 
+C:\Users\Mario_Andres\AppData\Local\Android\Sdk 
+Luego aceptar y aceptar
+
+// SIGUIENDO CON LA CREACION ANDROID VIRTUAL 
+luego - Tools - AVD MANAGER - CREATE VIRTUAL DEVICE
+Se recomienda agregar una con una resolucion grande como PIXEL 3XL y uno con una resolucion pequeña como el NEXUS4
+NEXT
+LUEGO ESCOGER AL VERSION DEL ANDROID, SE RECOMIENDA ESCOGER LA VERSION ESTABLE 
+NEXT
+Luego un apso importante escoger un nombre apra el dispositivo virtual, es recomendable dejarle el que viene por defecto
+Luego en Graphics si tu sabes que tiene suna tarjeta d evideo escoge hardware si no escoge automatic
+
+
