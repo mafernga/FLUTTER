@@ -1,3 +1,26 @@
+//PROGRAMAS RECOMENDADOS ANTES DE INSTALAR FLUTTER
+PROGRAMAS
+VSCode https://code.visualstudio.com/
+Git  https://git-scm.com/
+Postman https://www.getpostman.com/downloads/
+Android Studio https://developer.android.com/studio
+Mac OSX (PARA USUARIOS MAC) - XCode https://itunes.apple.com/hn/app/xcode/id497799835?l=en&mt=12
+
+PLUGINS PARA VSCODE (ESTOS PLUGINS SE INSTALAN DESDE EL MARKETPLACE DE VSCODE)
+
+Awesome Flutter Snippets https://marketplace.visualstudio.com/items?itemName=Nash.awesome-flutter-snippets
+Bracket Pair Colorizer 2 https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2
+Dart https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code
+Flutter https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter
+Material Icon Theme https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
+Paste JSON as Code https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype 
+Terminal https://marketplace.visualstudio.com/items?itemName=formulahendry.terminal
+
+TEMA VSCODE
+Monokai Night https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-monokai-night
+
+//INSTALAR Y CONFIGURAR FLUTTER
+
 Entrar a la direccion www.flutter.dev/
 Click en Get Started
 En la seccion de requerimentos del sistema clic en instalar "Git for Windows 2.x, with the Use Git from the Windows Command Prompt option."
